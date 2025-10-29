@@ -1,0 +1,33 @@
+@use "../abstracts/variables" as *;
+
+.container {
+  padding: 0;
+  margin: 60px;
+}
+
+.nav_principal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 30px;
+}
+
+.nav_index ul,
+.nav_login ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  display: block;
+}
+
+.nav_index a,
+.nav_login a {
+  text-decoration: none;
+}

@@ -1,0 +1,57 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 0;
+  margin: 60px;
+}
+
+.nav_principal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 30px;
+}
+
+/* Colocar los ítems del menú en una fila */
+.nav_index ul,
+.nav_login ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  display: block;
+}
+
+.nav_index a,
+.nav_login a {
+  text-decoration: none;
+}
+
+html * {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+ul,
+a {
+  text-decoration: none;
+  list-style: none;
+  color: RGB 38 64 101;
+}
+
+/*# sourceMappingURL=style.css.map */
