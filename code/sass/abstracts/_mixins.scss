@@ -38,3 +38,12 @@
     }
   }
 }
+
+@mixin button() {
+  display: inline-block;
+  background-color: $blue;
+  border-radius: 28px;
+  color: white;
+  padding: 16px 24px;
+
+}

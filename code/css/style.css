@@ -5,9 +5,23 @@
   box-sizing: border-box;
 }
 
+.fondo {
+  position: absolute;
+  z-index: -10;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.fondo_background img {
+  width: 100%;
+}
+
 .container {
   padding: 0;
   margin: 60px;
+  position: relative;
+  bottom: 45px;
 }
 
 .nav_principal {
@@ -15,14 +29,14 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  gap: 30px;
+  gap: 50px;
 }
 
 .nav_index ul,
 .nav_login ul {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 40px;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -38,7 +52,21 @@
 }
 
 a.nav_up {
-  background-color: RGB 38 64 101;
+  display: inline-block;
+  background-color: rgb(38, 64, 101);
+  border-radius: 28px;
+  color: white;
+  padding: 16px 24px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero_title {
+  font-size: 64px;
+  max-width: 0%;
 }
 
 html * {
@@ -53,7 +81,7 @@ ul,
 a {
   text-decoration: none;
   list-style: none;
-  color: RGB 38 64 101;
+  color: rgb(38, 64, 101);
 }
 
 /*# sourceMappingURL=style.css.map */
