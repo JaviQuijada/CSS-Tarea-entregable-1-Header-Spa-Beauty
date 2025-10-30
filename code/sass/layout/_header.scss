@@ -1,7 +1,5 @@
 @use "../abstracts/variables" as *;
 
-
-
 .fondo {
   position: absolute;
   z-index: -10;
@@ -27,7 +25,6 @@
   align-items: center;
   width: 100%;
   gap: 50px;
-  
 }
 
 .nav_index ul,
