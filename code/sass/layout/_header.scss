@@ -1,5 +1,7 @@
 @use "../abstracts/variables" as *;
 
+
+
 .fondo {
   position: absolute;
   z-index: -10;
@@ -10,14 +12,13 @@
   &_background img {
     width: 100%;
   }
-  
 }
 
 .container {
   padding: 0;
   margin: 60px;
   position: relative;
-bottom: 45px;
+  bottom: 45px;
 }
 
 .nav_principal {
@@ -26,6 +27,7 @@ bottom: 45px;
   align-items: center;
   width: 100%;
   gap: 50px;
+  
 }
 
 .nav_index ul,
@@ -38,7 +40,7 @@ bottom: 45px;
   padding: 0;
 }
 
-.logo {
+.logo img {
   display: block;
 }
 
@@ -59,4 +61,3 @@ a.nav_up {
   display: flex;
   justify-content: space-between;
 }
-
