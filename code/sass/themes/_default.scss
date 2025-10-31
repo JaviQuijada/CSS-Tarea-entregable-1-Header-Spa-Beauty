@@ -6,11 +6,24 @@ html * {
 
 body {
   overflow-x: hidden;
+  background-image: url(../img/imagen.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
-ul,
+.contenedor-principal {
+
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
 a {
   text-decoration: none;
-  list-style: none;
   color: $blue;
+
+}
+li {
+  list-style: none;
 }
