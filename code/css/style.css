@@ -14,7 +14,15 @@
   right: 0;
 }
 .fondo_background img {
+  width: 83%;
+}
+
+header.header-principal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
+  gap: 50px;
 }
 
 .container {
@@ -22,6 +30,9 @@
   margin: 60px;
   position: relative;
   bottom: 45px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
 }
 
 .nav_principal {
@@ -42,13 +53,14 @@
   padding: 0;
 }
 
-.logo {
+.logo img {
   display: block;
 }
 
 .nav_index a,
 .nav_login a {
   text-decoration: none;
+  font-size: 10px;
 }
 
 a.nav_up {
@@ -63,10 +75,12 @@ a.nav_up {
   display: flex;
   justify-content: space-between;
 }
-
 .hero_title {
   font-size: 64px;
   max-width: 0%;
+}
+.hero_title_woman {
+  width: 50%;
 }
 
 html * {
@@ -82,6 +96,10 @@ a {
   text-decoration: none;
   list-style: none;
   color: rgb(38, 64, 101);
+}
+
+body {
+  background-color: #f0f0f0;
 }
 
 /*# sourceMappingURL=style.css.map */

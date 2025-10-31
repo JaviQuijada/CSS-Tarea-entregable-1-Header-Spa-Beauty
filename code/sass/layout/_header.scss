@@ -8,15 +8,24 @@
   left: 0;
   right: 0;
   &_background img {
-    width: 100%;
+    width: 83%;
   }
 }
-
+header.header-principal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 50px;
+}
 .container {
   padding: 0;
   margin: 60px;
   position: relative;
   bottom: 45px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
 }
 
 .nav_principal {
@@ -44,6 +53,7 @@
 .nav_index a,
 .nav_login a {
   text-decoration: none;
+  font-size: 10px;
 }
 
 a.nav_up {
@@ -52,9 +62,4 @@ a.nav_up {
   border-radius: 28px;
   color: white;
   padding: 16px 24px;
-}
-
-.hero {
-  display: flex;
-  justify-content: space-between;
 }
